@@ -1,0 +1,64 @@
+﻿@page "/Contato"
+
+<PageTitle>Contato</PageTitle>
+
+
+<section class="secao-destaque" id="contato" aria-label="Destaques do site">
+    <article class="contato-ifen">
+        <h2>Sobre meu Curriculo</h2>
+        <h3>
+            Estou sempre aberto para novas oportunidades,
+            parcerias e projetos na área de tecnologia.
+            Caso queira conversar, trocar ideias ou conhecer
+            mais sobre meu trabalho, entre em contato comigo
+            através do WhatsApp: (69) 99379-4198.
+            Será um prazer conversar com você..
+        </h3>
+
+    </article>
+</section>
+
+<style>
+    .secao-destaque {
+        margin: 0 auto;
+        max-width: 1100px;
+        padding: 2rem 1.5rem 4rem;
+    }
+
+    .contato-ifen {
+        background: pink;
+        border: 1px solid #dbe4f0;
+        border-radius: 16px;
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+        padding: 1.5rem;
+        color: black;
+    }
+
+        .contato-ifen h2 {
+            font-family: "Georgia", "Times New Roman", serif;
+            font-size: 1.7rem;
+            margin: 0 0 0.75rem;
+        }
+
+        .contato-ifen p {
+            line-height: 1.65;
+            margin: 0;
+        }
+
+    @@media (max-width: 640px) {
+
+        .secao-destaque {
+            padding: 1rem 1rem 3rem;
+        }
+
+        .contato-ifen {
+            border-radius: 14px;
+            padding: 1.2rem;
+        }
+
+            .contato-ifen h2 {
+                font-size: 1.4rem;
+            }
+    }
+</style>
+

@@ -1,0 +1,59 @@
+﻿@page "/Curriculo"
+
+<PageTitle>Curiculo</PageTitle>
+
+ <section class="secao-destaque" id="curriculo" aria-label="Destaques do site">
+        <article class="curriculo-ifen">
+            <h2>Sobre meu Curriculo</h2>
+        <p>
+            Atuo na área de informática com conhecimentos em manutenção, programação básica, desenvolvimento web e tecnologia em geral. Também possuo curso de Robótica, onde desenvolvi lógica, criatividade e trabalho em equipe em projetos tecnológicos.
+            Tenho facilidade em aprender novas ferramentas, resolver problemas e
+            me adaptar a diferentes desafios dentro da área da tecnologia.
+        </p>
+            
+        </article>
+</section>
+
+<style>
+    .secao-destaque {
+        margin: 0 auto;
+        max-width: 1100px;
+        padding: 2rem 1.5rem 4rem;
+    }
+
+    .curriculo-ifen {
+        background: pink;
+        border: 1px solid #dbe4f0;
+        border-radius: 16px;
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+        padding: 1.5rem;
+        color: black;
+    }
+
+        .curriculo-ifen h2 {
+            font-family: "Georgia", "Times New Roman", serif;
+            font-size: 1.7rem;
+            margin: 0 0 0.75rem;
+        }
+
+        .curriculo-ifen p {
+            line-height: 1.65;
+            margin: 0;
+        }
+
+    @@media (max-width: 640px) {
+
+        .secao-destaque {
+            padding: 1rem 1rem 3rem;
+        }
+
+        .curriculo-ifen {
+            border-radius: 14px;
+            padding: 1.2rem;
+        }
+
+            .curriculo-ifen h2 {
+                font-size: 1.4rem;
+            }
+    }
+</style>
